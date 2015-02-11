@@ -13,7 +13,7 @@ class MobileShellColorFix < Formula
     depends_on "automake" => :build
   end
 
-  patch :p0 do
+  patch :p1 do
     url 'https://github.com/cgull/mosh/commit/51312f0a54011ea12407f5d8caa17bf77cdf990a.patch'
     sha1 'd3a232f443ed87c89ea188face068b786a1027ec'
   end
