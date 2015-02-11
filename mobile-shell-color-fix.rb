@@ -7,10 +7,15 @@ class MobileShellColorFix < Formula
   revision 2
 
   head do
-    url "https://github.com/delphinus35/mosh.git"
+    url "https://github.com/keithw/mosh.git"
 
     depends_on "autoconf" => :build
     depends_on "automake" => :build
+  end
+
+  patch :p1 do
+    url 'https://github.com/cgull/mosh/commit/51312f0a54011ea12407f5d8caa17bf77cdf990a.patch'
+    sha1 'd3a232f443ed87c89ea188face068b786a1027ec'
   end
 
   option "with-check", "Run build-time tests"
