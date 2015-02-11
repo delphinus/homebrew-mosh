@@ -19,6 +19,8 @@ class MobileShellColorFix < Formula
   depends_on "pkg-config" => :build
   depends_on "protobuf"
 
+  conflicts_with 'mobile-shell', :because => 'both install an `mosh` binary'
+
   def install
     system "./autogen.sh" if build.head?
 
