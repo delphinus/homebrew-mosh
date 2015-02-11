@@ -7,3 +7,7 @@ The shell status line drawed by Powerline in mosh may be shown in odd colors ([i
 
 [issue]: https://github.com/keithw/mosh/issues/507
 [pr]: https://github.com/keithw/mosh/pull/548
+
+before       |after
+:-----------:|:-----------:
+![before](before.png =554x) |![after](after.png =554x)
