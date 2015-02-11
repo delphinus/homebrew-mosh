@@ -10,4 +10,4 @@ The shell status line drawed by Powerline in mosh may be shown in odd colors ([i
 
 before       |after
 :-----------:|:-----------:
-[[ before.png | height = 554px ]] | [[ after.png | height = 554x ]]
+<img src="before.png" width="554" height="144">|<img src="after.png" width="554" height="144">
